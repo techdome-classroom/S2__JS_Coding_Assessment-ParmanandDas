@@ -25,11 +25,11 @@ function romanToInt(s) {
     
     
     for (let i = 0; i < s.length; i++) {
-        // If the current numeral is smaller than the next, subtract it
+        
         if (i < s.length - 1 && romanMap[s[i]] < romanMap[s[i + 1]]) {
             total -= romanMap[s[i]];
         } else {
-            // Otherwise, add the value
+            
             total += romanMap[s[i]];
         }
     }
