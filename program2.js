@@ -40,4 +40,4 @@ function romanToInt(s) {
 
 console.log(romanToInt("III"));      
 console.log(romanToInt("LVIII"));    
-console.log(romanToInt("MCMXCIV"));  // Output: 1994
+console.log(romanToInt("MCMXCIV"));  
