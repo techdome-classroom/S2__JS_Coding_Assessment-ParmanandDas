@@ -33,6 +33,6 @@ function isValid(s) {
 }
 
 
-console.log(isValid("()"));      
-console.log(isValid("()[]{}"));    // true
-console.log(isValid("(]"));        // false
+console.log(isValid("()"));  
+console.log(isValid("()[]{}"));
+console.log(isValid("(]"));
