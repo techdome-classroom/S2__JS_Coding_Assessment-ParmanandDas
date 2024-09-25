@@ -23,7 +23,7 @@ function romanToInt(s) {
 
     let total = 0;
     
-    // Loop through the string s
+    
     for (let i = 0; i < s.length; i++) {
         // If the current numeral is smaller than the next, subtract it
         if (i < s.length - 1 && romanMap[s[i]] < romanMap[s[i + 1]]) {
